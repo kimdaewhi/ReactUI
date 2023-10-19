@@ -15,6 +15,9 @@
 
     // Material UI에서는 Roboto 폰트를 사용하므로 다음 글꼴을 추가하는 것이 좋다.
     npm install @fontsource/roboto
+
+    // Material UI에는 다양한 Icon 파일들을 제공한다.
+    npm install @mui/icons-material
     ```
 
     ```
@@ -23,3 +26,5 @@
     import '@fontsource/roboto/500.css';
     import '@fontsource/roboto/700.css';
     ```
+  * mininum-scale=1 추가(index.html)
+  
