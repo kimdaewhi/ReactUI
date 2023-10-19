@@ -1,9 +1,13 @@
-import MaterialUIExam1 from './components/materialUI/MaterialUIExam1'
+import Buttons from './components/materialUI/Buttons'
 
 function App() {
   return (
     <div className="App">
-      <MaterialUIExam1/>
+      <Buttons/>
+
+      {/* <Buttons/>
+
+        */}
     </div>
   );
 }
