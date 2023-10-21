@@ -1,14 +1,19 @@
-import Buttons from './components/materialUI/Buttons'
+import AutoCompletes from './components/materialUI/AutoCompletes'
+import styled from  '@emotion/styled'
+
+const StyledApp = styled.div`
+  margin : 10px;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <Buttons/>
+    <StyledApp>
+      <AutoCompletes/>
 
-      {/* <Buttons/>
-
+      {/* 
+        <Buttons/>
         */}
-    </div>
+    </StyledApp>
   );
 }
 
