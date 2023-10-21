@@ -121,10 +121,10 @@ export default function Buttons() {
                 <hr/>
 
                 <Stack direction="row" spacing={2}>
-                    <Button variant="outlined" startIcon={<DeleteIcon />}>
+                    <Button variant="outlined" startIcon={<DeleteIcon />} onClick={(e) =>{console.log("delete button clicked!")}}>
                         Delete
                     </Button>
-                    <Button variant="contained" endIcon={<SendIcon />}>
+                    <Button variant="contained" endIcon={<SendIcon />} onClick={(e) =>{console.log("send button clicked!")}}>
                         Send
                     </Button>
                 </Stack>
